@@ -58,7 +58,7 @@ export default function Home() {
 						alt="productImg"
 						width={500}
 						height={500}
-						loading="lazy"
+						priority
 					/>
 				)}
 			</main>
