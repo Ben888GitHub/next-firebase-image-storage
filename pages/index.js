@@ -53,7 +53,13 @@ export default function Home() {
 				<button onClick={uploadImage}>Upload Image</button>
 				<br />
 				{imageSrc && (
-					<Image src={imageSrc} alt="productImg" width={500} height={500} />
+					<Image
+						src={imageSrc}
+						alt="productImg"
+						width={500}
+						height={500}
+						loading="lazy"
+					/>
 				)}
 			</main>
 		</div>
